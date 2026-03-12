@@ -26,15 +26,7 @@ export default function TopBar({ sandbox, version }) {
                         </defs>
                     </svg>
                     <span className="topbar-title">LynorAI</span>
-                    <span style={{
-                        fontSize: '0.7rem',
-                        background: 'rgba(255,255,255,0.15)',
-                        color: 'inherit',
-                        padding: '2px 8px',
-                        borderRadius: '999px',
-                        opacity: 0.75,
-                        whiteSpace: 'nowrap',
-                    }}>Built by Duc Do</span>
+                    <span className="topbar-built-by">Built by Duc Do</span>
                 </div>
             </div>
 
