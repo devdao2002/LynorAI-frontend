@@ -52,9 +52,24 @@ export default function Sidebar({ activeTab, onTabChange }) {
                 ))}
             </div>
             <div className="sidebar-footer">
-                <a href="https://github.com/devdao2002/enterprise-rag-assistant" target="_blank" rel="noreferrer" className="sidebar-link" title="GitHub">
+                {/* GitHub */}
+                <a href="https://github.com/devdao2002/LynorAI-backend" target="_blank" rel="noreferrer" className="sidebar-link" title="GitHub">
                     <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
                         <path d="M12 0C5.37 0 0 5.37 0 12a12 12 0 008.2 11.4c.6.1.8-.2.8-.6v-2.3c-3.3.7-4-1.4-4-1.4-.6-1.5-1.4-1.9-1.4-1.9-1.2-.8.1-.8.1-.8 1.3.1 2 .1 2 .1 1.1 1.9 3 1.3 3.7 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3 0 0 1-.3 3.3 1.2a11.4 11.4 0 016 0C17 4 18 4.3 18 4.3c.6 1.5.2 2.7.1 3 .7.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.4 5.9.4.4.8 1.1.8 2.2v3.2c0 .4.2.7.8.6A12 12 0 0024 12c0-6.63-5.37-12-12-12z" />
+                    </svg>
+                </a>
+
+                {/* LinkedIn */}
+                <a href="https://linkedin.com/in/duc-do-00b7aa361" target="_blank" rel="noreferrer" className="sidebar-link" title="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                        <path d="M20.4 20.4h-3.6v-5.6c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9v5.7H9.1V9h3.5v1.6h.1c.5-.9 1.6-1.9 3.3-1.9 3.5 0 4.1 2.3 4.1 5.2v6.5zM5.3 7.4c-1.2 0-2.1-1-2.1-2.2S4.1 3 5.3 3s2.1 1 2.1 2.2-1 2.2-2.1 2.2zM7.1 20.4H3.5V9h3.6v11.4zM22.2 0H1.8C.8 0 0 .8 0 1.8v20.4C0 23.2.8 24 1.8 24h20.4c1 0 1.8-.8 1.8-1.8V1.8C24 .8 23.2 0 22.2 0z" />
+                    </svg>
+                </a>
+
+                {/* Freelancer */}
+                <a href="https://www.freelancer.com/u/iglobalvn" target="_blank" rel="noreferrer" className="sidebar-link" title="Freelancer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 91.38" fill="currentColor" width="18" height="18">
+                        <path d="M72.19 0l8.37 11.74L122.88 0zM28.18 91.38L51.08 69 37.3 54.19 28.18 91.38zM68.7 0L56.46 11l20.59.77L68.7 0zM21.11 0l4.42 9 24.23 1.51L21.11 0zM34.09 46.73L52 13.33 0 10.52 34.09 46.73zM36.17 48.84L53.08 67 71.73 48.72l5.79-34L54.79 13.51 36.17 48.84z" />
                     </svg>
                 </a>
             </div>
