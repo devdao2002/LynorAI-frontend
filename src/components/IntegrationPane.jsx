@@ -64,7 +64,7 @@ const INTEGRATIONS = [
         code: `<!-- Web Chat Embed Snippet -->
 <iframe
   id="lynor-copilot"
-  src="http://localhost:3000"
+  src="http://lynorai.space"
   style="position:fixed;bottom:24px;right:24px;
          width:380px;height:560px;border:none;
          border-radius:16px;box-shadow:0 8px 32px rgba(0,0,0,.3);
