@@ -40,7 +40,7 @@ const INTEGRATIONS = [
         ],
         code: `<!-- Power Apps Web Resource iframe -->
 <iframe
-  src="https://your-rag-domain.com"
+  src="https://lynorai.space"
   width="100%"
   height="600"
   frameborder="0"

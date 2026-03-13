@@ -8,7 +8,7 @@ A **Microsoft Copilot Studio–style** React chatbot interface for the LynorAI E
 
 ### Prerequisites
 - Node.js 18+
-- Spring Boot backend running on port `8080` (see root [`README.md`](../README.md))
+- Spring Boot backend running on port `8080` (see [`LynorAI-backend`](https://github.com/devdao2002/LynorAI-backend/))
 
 ### Install & Run
 
@@ -86,7 +86,7 @@ Wrap the chat in a [PCF component](https://learn.microsoft.com/en-us/power-apps/
 ### Web Chat (iframe embed)
 ```html
 <iframe
-  src="https://your-domain.com"
+  src="https://lynorai.space"
   style="position:fixed;bottom:24px;right:24px;width:380px;height:560px;
          border:none;border-radius:16px;box-shadow:0 8px 32px rgba(0,0,0,.3);"
   title="LynorAI Copilot">
